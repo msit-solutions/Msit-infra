@@ -4,11 +4,11 @@ variable "aws_region" {
 }
 variable "access_key" {
     description = "Iam access key"
-    default = "AKIAVRHGMGJV5AE4YVNH"
+    default = " " ( here we have to give the iam access key  )
 }
 variable "secret_key" {
     description = "Iam secret key"
-    default = "WiiTclD5MaA6PkvNxD9QLbm5D+8fJRPReqZqZSeH"
+    default = " " (here we have to give the iam secret key)
 }
 variable "cidr_block" {
   default     = "10.0.0.0/16"
